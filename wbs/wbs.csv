@@ -1,0 +1,38 @@
+WBS code,Element,Level
+1.0,IAM System Deployment,1
+1.1,Project management,2
+1.1.1,Project charter,3
+1.1.2,Stakeholder register and communication plan,3
+1.1.3,Project management plan and baselines,3
+1.1.4,"Monitoring, control and reporting",3
+1.2,Requirements and design,2
+1.2.1,Current-state identity and application assessment,3
+1.2.2,Requirements specification,3
+1.2.3,Privacy impact assessment,3
+1.2.4,IAM platform selection (RFQ and evaluation),3
+1.2.5,Role model (RBAC role catalogue),3
+1.2.6,Solution architecture and security design,3
+1.3,IAM platform build,2
+1.3.1,Tenant configuration and HR directory sync,3
+1.3.2,Joiner-mover-leaver workflows,3
+1.3.3,MFA and conditional access policies,3
+1.3.4,Privileged access management,3
+1.3.5,Access review campaigns,3
+1.4,Application integration,2
+1.4.1,"SSO wave 1: M365, intranet, VPN, rostering",3
+1.4.2,"SSO wave 2: EMR, PAS, HRIS, payroll, finance",3
+1.4.3,"SSO wave 3: pathology, imaging, incidents",3
+1.4.4,"Provisioning connectors: M365, EMR, PAS",3
+1.5,Testing,2
+1.5.1,Test strategy and test cases,3
+1.5.2,System and integration testing,3
+1.5.3,Penetration testing,3
+1.5.4,User acceptance testing,3
+1.6,Deployment and adoption,2
+1.6.1,Training materials and champions network,3
+1.6.2,Pilot: head office and one clinic (150 users),3
+1.6.3,Phased rollout to all sites,3
+1.6.4,"Hypercare, first access review, legacy clean-up",3
+1.7,Closure,2
+1.7.1,Handover to IT operations,3
+1.7.2,"Benefits check, lessons learned, closure report",3
