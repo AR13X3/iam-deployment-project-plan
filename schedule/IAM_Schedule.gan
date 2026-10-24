@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="IAM System Deployment - Corella Health Group" company="Corella Health Group" webLink="" view-date="2026-11-02" view-index="0" gantt-divider-location="420" resource-divider-location="300" version="3.2" locale="en_AU">
+<description>Schedule baseline v1.0. Generated from tools/schedule.py.</description>
+<calendars><day-types><day-type id="0"/><day-type id="1"/><default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/><only-show-weekends value="false"/><overriden-day-types/><days/></day-types>
+<date year="2026" month="12" date="24" type="HOLIDAY">Christmas shutdown</date>
+<date year="2026" month="12" date="25" type="HOLIDAY">Christmas Day</date>
+<date year="2026" month="12" date="28" type="HOLIDAY">Boxing Day (additional day)</date>
+<date year="2026" month="12" date="29" type="HOLIDAY">Christmas shutdown</date>
+<date year="2026" month="12" date="30" type="HOLIDAY">Christmas shutdown</date>
+<date year="2026" month="12" date="31" type="HOLIDAY">Christmas shutdown</date>
+<date year="2027" month="1" date="1" type="HOLIDAY">New Year's Day</date>
+<date year="2027" month="1" date="26" type="HOLIDAY">Australia Day</date>
+<date year="2027" month="3" date="26" type="HOLIDAY">Good Friday</date>
+<date year="2027" month="3" date="29" type="HOLIDAY">Easter Monday</date>
+<date year="2027" month="6" date="14" type="HOLIDAY">King's Birthday</date>
+</calendars>
+<tasks empty-milestones="true">
+<task id="0" uid="b9a72b5c699551299bd8fd790354dbf8" name="1.1 Project management" color="#000000" meeting="false" start="2026-11-02" duration="1" complete="0" expand="true">
+<task id="7" uid="005c919baf2a5c7b9b5af63876cd78fc" name="1.1.1 Project charter" color="#c0392b" meeting="false" start="2026-11-02" duration="5" complete="0" expand="true"><depend id="8" type="2" difference="0" hardness="Strong"/></task>
+<task id="8" uid="40a81216ac275c359d7b4943f8665701" name="M1 Charter approved" color="#c0392b" meeting="true" start="2026-11-06" duration="0" complete="0" expand="true"><depend id="9" type="2" difference="0" hardness="Strong"/><depend id="13" type="2" difference="0" hardness="Strong"/></task>
+<task id="9" uid="6b73cd2237d454838d388edd4afb327f" name="1.1.2 Stakeholder register and communication plan" color="#4a7fb5" meeting="false" start="2026-11-09" duration="4" complete="0" expand="true"><depend id="10" type="2" difference="0" hardness="Strong"/></task>
+<task id="10" uid="e87b2e0c752c5161b86e0e722ba990c9" name="1.1.3 Project management plan and baselines" color="#4a7fb5" meeting="false" start="2026-11-13" duration="8" complete="0" expand="true"><depend id="11" type="2" difference="0" hardness="Strong"/></task>
+<task id="11" uid="72e8d3ee4fea5d1f9284b800eb49f5a5" name="M2 Plan baselined (Gate 1)" color="#4a7fb5" meeting="true" start="2026-11-24" duration="0" complete="0" expand="true"><depend id="12" type="2" difference="0" hardness="Strong"/><depend id="17" type="2" difference="0" hardness="Strong"/></task>
+<task id="12" uid="c6b519a09c755da0a58a2aa10cfcb7bd" name="1.1.4 Monitoring, control and reporting" color="#999999" meeting="false" start="2026-11-25" duration="155" complete="0" expand="true"></task>
+</task>
+<task id="1" uid="e051e2976e855890ab6068b15278870e" name="1.2 Requirements and design" color="#000000" meeting="false" start="2026-11-09" duration="1" complete="0" expand="true">
+<task id="13" uid="d0cfc4a212b759b6b8a879c77436d623" name="1.2.1 Current-state identity and application assessment" color="#c0392b" meeting="false" start="2026-11-09" duration="10" complete="0" expand="true"><depend id="14" type="2" difference="0" hardness="Strong"/></task>
+<task id="14" uid="4bb2e3cefafc56f598f5a1a4895da92b" name="1.2.2 Requirements specification" color="#c0392b" meeting="false" start="2026-11-23" duration="8" complete="0" expand="true"><depend id="15" type="2" difference="0" hardness="Strong"/><depend id="16" type="2" difference="0" hardness="Strong"/><depend id="18" type="2" difference="0" hardness="Strong"/></task>
+<task id="15" uid="73f03b1680b05ac788f3ecc1147bba6f" name="1.2.3 Privacy impact assessment" color="#4a7fb5" meeting="false" start="2026-12-03" duration="8" complete="0" expand="true"><depend id="17" type="2" difference="0" hardness="Strong"/></task>
+<task id="16" uid="7ad80b8b23d95a05bc53d036f7bc1774" name="1.2.4 IAM platform selection (RFQ and evaluation)" color="#c0392b" meeting="false" start="2026-12-03" duration="15" complete="0" expand="true"><depend id="17" type="2" difference="0" hardness="Strong"/></task>
+<task id="17" uid="315bcc85e9f95c32aadf552f6a1b87fd" name="M3 Platform contract signed" color="#c0392b" meeting="true" start="2026-12-23" duration="0" complete="0" expand="true"><depend id="19" type="2" difference="0" hardness="Strong"/></task>
+<task id="18" uid="fdcad522c4015423bb0baa9bbe81ba2f" name="1.2.5 Role model (RBAC role catalogue)" color="#4a7fb5" meeting="false" start="2026-12-03" duration="12" complete="0" expand="true"><depend id="20" type="2" difference="0" hardness="Strong"/></task>
+<task id="19" uid="a11240a2624452bbab771cd575e677af" name="1.2.6 Solution architecture and security design" color="#c0392b" meeting="false" start="2027-01-04" duration="10" complete="0" expand="true"><depend id="20" type="2" difference="0" hardness="Strong"/></task>
+<task id="20" uid="234b015cb44e50879e08bcd6eee8f61b" name="M4 Design approved (Gate 2)" color="#c0392b" meeting="true" start="2027-01-15" duration="0" complete="0" expand="true"><depend id="21" type="2" difference="0" hardness="Strong"/><depend id="30" type="2" difference="0" hardness="Strong"/></task>
+</task>
+<task id="2" uid="8b4b63b0b35953728f7a94e194b3a05d" name="1.3 IAM platform build" color="#000000" meeting="false" start="2027-01-18" duration="1" complete="0" expand="true">
+<task id="21" uid="8d7f4bb7f5b35f02aef20358fbbd3bb6" name="1.3.1 Tenant configuration and HR directory sync" color="#c0392b" meeting="false" start="2027-01-18" duration="8" complete="0" expand="true"><depend id="22" type="2" difference="0" hardness="Strong"/><depend id="23" type="2" difference="0" hardness="Strong"/></task>
+<task id="22" uid="83828c1bbd7b586c8f28cfc5d3c68783" name="1.3.2 Joiner-mover-leaver workflows" color="#4a7fb5" meeting="false" start="2027-01-29" duration="15" complete="0" expand="true"><depend id="25" type="2" difference="0" hardness="Strong"/><depend id="29" type="1" difference="5" hardness="Strong"/></task>
+<task id="23" uid="bb75e19984e1575a92ed0aa3452f2374" name="1.3.3 MFA and conditional access policies" color="#c0392b" meeting="false" start="2027-01-29" duration="6" complete="0" expand="true"><depend id="24" type="2" difference="0" hardness="Strong"/><depend id="26" type="2" difference="0" hardness="Strong"/></task>
+<task id="24" uid="cb103dc031fe5677aa2490512ecf9bd1" name="1.3.4 Privileged access management" color="#4a7fb5" meeting="false" start="2027-02-08" duration="10" complete="0" expand="true"><depend id="25" type="2" difference="0" hardness="Strong"/><depend id="31" type="2" difference="0" hardness="Strong"/></task>
+<task id="25" uid="a75e0cb69eee503daf172d359beeb3c3" name="1.3.5 Access review campaigns" color="#4a7fb5" meeting="false" start="2027-02-22" duration="6" complete="0" expand="true"><depend id="31" type="2" difference="0" hardness="Strong"/></task>
+</task>
+<task id="3" uid="3024fb2596ec5c04ab0c4b0cc3a68125" name="1.4 Application integration" color="#000000" meeting="false" start="2027-02-08" duration="1" complete="0" expand="true">
+<task id="26" uid="435711d380955336a75d2208e0088d35" name="1.4.1 SSO wave 1: M365, intranet, VPN, rostering" color="#c0392b" meeting="false" start="2027-02-08" duration="10" complete="0" expand="true"><depend id="27" type="2" difference="0" hardness="Strong"/><depend id="35" type="2" difference="0" hardness="Strong"/></task>
+<task id="27" uid="e35e6b0061365d158b6eb662244a67b0" name="1.4.2 SSO wave 2: EMR, PAS, HRIS, payroll, finance" color="#c0392b" meeting="false" start="2027-02-22" duration="15" complete="0" expand="true"><depend id="28" type="2" difference="0" hardness="Strong"/></task>
+<task id="28" uid="a234de19cf1452dba1c098b432e7f906" name="1.4.3 SSO wave 3: pathology, imaging, incidents" color="#c0392b" meeting="false" start="2027-03-15" duration="10" complete="0" expand="true"><depend id="31" type="2" difference="0" hardness="Strong"/></task>
+<task id="29" uid="4938d4471dd759d6b4158561807eb132" name="1.4.4 Provisioning connectors: M365, EMR, PAS" color="#4a7fb5" meeting="false" start="2027-02-05" duration="12" complete="0" expand="true"><depend id="31" type="2" difference="0" hardness="Strong"/></task>
+</task>
+<task id="4" uid="ae6ff9ffd5475a98892b6f17eef534e2" name="1.5 Testing" color="#000000" meeting="false" start="2027-01-18" duration="1" complete="0" expand="true">
+<task id="30" uid="b5081fe37449505397cfff33c2870b82" name="1.5.1 Test strategy and test cases" color="#4a7fb5" meeting="false" start="2027-01-18" duration="6" complete="0" expand="true"><depend id="31" type="2" difference="0" hardness="Strong"/></task>
+<task id="31" uid="d12cf5ab5d2851bf89fa49c803db7f38" name="1.5.2 System and integration testing" color="#c0392b" meeting="false" start="2027-03-31" duration="12" complete="0" expand="true"><depend id="32" type="2" difference="0" hardness="Strong"/><depend id="33" type="2" difference="0" hardness="Strong"/></task>
+<task id="32" uid="91b42bd41423598d8e4feb378d9cddb8" name="1.5.3 Penetration testing" color="#4a7fb5" meeting="false" start="2027-04-16" duration="8" complete="0" expand="true"><depend id="34" type="2" difference="0" hardness="Strong"/></task>
+<task id="33" uid="a1df79a31f685764aae29df3b6eed33c" name="1.5.4 User acceptance testing" color="#c0392b" meeting="false" start="2027-04-16" duration="10" complete="0" expand="true"><depend id="34" type="2" difference="0" hardness="Strong"/></task>
+<task id="34" uid="daa84a57afeb5cb0a18208ccaa9cb83e" name="M5 Go-live readiness (Gate 3)" color="#c0392b" meeting="true" start="2027-04-29" duration="0" complete="0" expand="true"><depend id="36" type="2" difference="0" hardness="Strong"/></task>
+</task>
+<task id="5" uid="4c91f5a2a2455f4e8481d8c34f6e11c2" name="1.6 Deployment and adoption" color="#000000" meeting="false" start="2027-02-22" duration="1" complete="0" expand="true">
+<task id="35" uid="8ea2bbc86e7251a89f9917a5e7683b9a" name="1.6.1 Training materials and champions network" color="#4a7fb5" meeting="false" start="2027-02-22" duration="10" complete="0" expand="true"><depend id="36" type="2" difference="0" hardness="Strong"/></task>
+<task id="36" uid="c19117dda2cd5d19b747b7273b94ef6d" name="1.6.2 Pilot: head office and one clinic (150 users)" color="#c0392b" meeting="false" start="2027-04-30" duration="10" complete="0" expand="true"><depend id="37" type="2" difference="3" hardness="Strong"/></task>
+<task id="37" uid="43d3f5fccfd453499b97525b4ec84fc1" name="1.6.3 Phased rollout to all sites" color="#c0392b" meeting="false" start="2027-05-19" duration="20" complete="0" expand="true"><depend id="38" type="2" difference="0" hardness="Strong"/></task>
+<task id="38" uid="33b6ddc91f4d531899bfbec985b78df0" name="M6 Go-live complete" color="#c0392b" meeting="true" start="2027-06-16" duration="0" complete="0" expand="true"><depend id="39" type="2" difference="0" hardness="Strong"/></task>
+<task id="39" uid="28f26f0b0118506cb7f6c82c89aa48a1" name="1.6.4 Hypercare, first access review, legacy clean-up" color="#c0392b" meeting="false" start="2027-06-17" duration="20" complete="0" expand="true"><depend id="40" type="2" difference="0" hardness="Strong"/></task>
+</task>
+<task id="6" uid="5326f73afaee5232ad5c84a6f5968a7c" name="1.7 Closure" color="#000000" meeting="false" start="2027-07-15" duration="1" complete="0" expand="true">
+<task id="40" uid="7dd3764f30ab5d33b9b684f5e14bb80d" name="1.7.1 Handover to IT operations" color="#c0392b" meeting="false" start="2027-07-15" duration="5" complete="0" expand="true"><depend id="41" type="2" difference="0" hardness="Strong"/></task>
+<task id="41" uid="3c68499ff3f65436b9ef05db14587ba4" name="1.7.2 Benefits check, lessons learned, closure report" color="#c0392b" meeting="false" start="2027-07-22" duration="5" complete="0" expand="true"><depend id="42" type="2" difference="0" hardness="Strong"/></task>
+<task id="42" uid="04cd6271eec350b6939d7c45ec2cacfc" name="M7 Project closed" color="#c0392b" meeting="true" start="2027-07-28" duration="0" complete="0" expand="true"></task>
+</task>
+</tasks><resources/><allocations/><vacations/><previous/><roles roleset-name="Default"/></project>
