@@ -1,1 +1,2 @@
 ID,Date raised,Description,Raised by,Priority (P1-P4),Owner,Action,Status,Target date,Date closed
+I-003,25 Oct 2026,"Plan pull requests #1-#4 merged into main without the required review (#4 by admin bypass); #4 placed files in the repository root instead of plan/sections/",Toufiq,P2,Toufiq,"Retrospective review comments on #1-#3; Fardin re-submits #4 files to plan/sections/ through a reviewed pull request; no more admin bypass",Open,25 Oct 2026,
